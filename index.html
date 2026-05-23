@@ -1,176 +1,438 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эксперт по Юридической Проверке Недвижимости</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        section {
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 1200px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        #hero {
-            background-color: #e9ecef;
-            text-align: center;
-        }
-        #team {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .team-member {
-            width: 300px;
-            margin: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            text-align: center;
-        }
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Юрист по недвижимости и наследству в Костроме — проверка квартиры, сопровождение сделки, консультации онлайн</title>
+  <meta name="description" content="Юрист с 12-летним опытом и опытом работы в нотариальной конторе. Проверка недвижимости перед покупкой, сопровождение сделок, консультации по наследству, брачным договорам и семейным имущественным вопросам. Онлайн по всей России.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://uristsokolov.ru/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/styles.css" as="style">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="theme-color" content="#183c45">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Юрист по недвижимости и наследству в Костроме">
+  <meta property="og:description" content="Проверю документы, объясню риски простым языком и помогу выбрать безопасный порядок действий до сделки.">
+  <meta property="og:url" content="https://uristsokolov.ru/">
+  <meta property="og:image" content="https://uristsokolov.ru/assets/social-preview.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Олег Соколов — юрист по недвижимости и наследству",
+    "url": "https://uristsokolov.ru/",
+    "areaServed": ["Кострома", "Россия"],
+    "priceRange": "от 3000 RUB",
+    "description": "Проверка недвижимости перед покупкой, сопровождение сделок, консультации по наследству, брачным договорам и семейным имущественным вопросам.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Кострома",
+      "addressCountry": "RU"
+    }
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
 
-    <header>
-        <h1>Эксперт по Юридической Проверке Недвижимости</h1>
-        <p>Работаем онлайн по всей России</p>
-    </header>
+  <header class="site-header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand__mark">ЮС</span>
+        <span class="brand__text"><strong>Олег Соколов</strong><small>юрист по недвижимости и наследству</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Основная навигация" data-nav>
+        <a href="#services">Услуги</a>
+        <a href="#process">Как работаю</a>
+        <a href="#about">Обо мне</a>
+        <a href="#prices">Цены</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <a class="text-link" href="#contacts" data-goal="click_telegram">Telegram</a>
+        <a class="btn btn--small" href="#consultation">Записаться</a>
+      </div>
+    </div>
+  </header>
 
-    <nav>
-        <ul>
-            <li><a href="#services">Услуги</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#team">Наша команда</a></li>
-            <li><a href="#subscribe">Подписка</a></li>
-        </ul>
-    </nav>
-
-    <section id="hero">
-        <h2>Центр Юридической Проверки Недвижимости</h2>
-        <p>Профессиональная помощь в проверке объектов недвижимости для риэлторов, покупателей и продавцов. Работаем онлайн по всей России.</p>
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Кострома · онлайн по всей России</p>
+          <h1>Проверка недвижимости, наследство и семейные имущественные вопросы — понятным языком и без лишних рисков</h1>
+          <p class="hero__lead">Я юрист с 12-летним опытом, включая работу в нотариальной конторе. Помогаю покупателям недвижимости, наследникам и семьям безопасно оформить документы, увидеть риски до сделки и понять, как лучше действовать.</p>
+          <ul class="facts" aria-label="Ключевые факты">
+            <li><strong>12 лет</strong><span>практики</span></li>
+            <li><strong>Нотариальный</strong><span>бэкграунд</span></li>
+            <li><strong>Онлайн</strong><span>по России</span></li>
+            <li><strong>от 3 000 ₽</strong><span>консультация</span></li>
+          </ul>
+          <div class="hero__cta">
+            <a class="btn" href="#consultation">Записаться на консультацию</a>
+            <a class="btn btn--secondary" href="#quiz">Проверить объект перед покупкой</a>
+          </div>
+          <p class="hero__note">Не обещаю невозможного. Я изучаю документы, объясняю риски и предлагаю понятные варианты действий.</p>
+        </div>
+        <aside class="hero-card" aria-label="Профиль специалиста">
+          <div class="portrait" role="img" aria-label="Место для делового фото юриста">
+            <img src="/assets/portrait-placeholder.svg" width="520" height="560" alt="Олег Соколов, юрист по недвижимости и наследству" loading="eager">
+          </div>
+          <div class="hero-card__body">
+            <p class="quote">«Сначала проверяем документы и риски — потом подписываем»</p>
+            <dl class="mini-stats">
+              <div><dt>Фокус</dt><dd>недвижимость, наследство, семейные имущественные вопросы</dd></div>
+              <div><dt>Формат</dt><dd>офис, онлайн, выезд по договорённости</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <section id="services">
-        <h2>Услуги Специалистов</h2>
-        <ul>
-            <li>Юридическая проверка документов на недвижимость</li>
-            <li>Анализ рисков и потенциальных проблем</li>
-            <li>Подготовка договоров и сопровождение сделок</li>
-            <li>Консультации по налогам и ипотеке</li>
-            <li>Судебное представительство в спорах по недвижимости</li>
-            <li>Обучающие вебинары и семинары</li>
-        </ul>
+    <section class="section section--soft" id="situations">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Когда нужна помощь</p>
+          <h2>Когда стоит обратиться ко мне</h2>
+        </div>
+        <div class="situations-grid">
+          <article class="situation-card"><span>01</span><p>Покупаете квартиру и не уверены, что документы в порядке.</p></article>
+          <article class="situation-card"><span>02</span><p>Риэлтор говорит, что «всё проверено», но вы хотите независимое юридическое мнение.</p></article>
+          <article class="situation-card"><span>03</span><p>Наследуете квартиру, дом или долю и не понимаете порядок действий.</p></article>
+          <article class="situation-card"><span>04</span><p>Хотите защитить имущество семьи до брака или во время брака.</p></article>
+          <article class="situation-card situation-card--wide"><span>05</span><p>Нужно спокойно разобраться в документах без суда, давления и юридического тумана.</p></article>
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-        <h2>О Нас</h2>
-        <p>Мы - команда экспертов в сфере юридической проверки недвижимости. Работаем онлайн по всей России.</p>
-        <ul>
-            <li>Проводим обучающие мероприятия: вебинары, семинары, интенсивы.</li>
-            <li>Взыскиваем вознаграждения в судебном порядке.</li>
-            <li>Обеспечиваем безопасность сделок с недвижимостью.</li>
-        </ul>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Услуги</p>
+          <h2>Четыре направления работы</h2>
+          <p>Главный приоритет — юридическая проверка объекта недвижимости перед покупкой. Остальные услуги помогают безопасно оформить сделку, наследство или семейные договорённости.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card service-card--primary">
+            <div class="service-card__top"><span class="badge">Приоритет</span><span class="service-card__icon">⌂</span></div>
+            <h3>Проверка недвижимости перед покупкой</h3>
+            <p>Проверю объект, документы и возможные риски до подписания договора. Объясню, какие документы нужно запросить, какие условия настораживают и можно ли выходить на сделку.</p>
+            <h4>Подходит, если</h4>
+            <p>Вы покупаете квартиру, дом или долю; продавец торопит; объект был получен по наследству; есть доверенность, доли, маткапитал или непонятная история документов.</p>
+            <h4>Результат</h4>
+            <p>Вы понимаете, насколько безопасна сделка и какие условия нужно выполнить до подписания.</p>
+            <a class="card-link" href="#quiz">Проверить объект</a>
+          </article>
+          <article class="service-card">
+            <div class="service-card__top"><span class="badge badge--muted">Сделка</span><span class="service-card__icon">✓</span></div>
+            <h3>Сопровождение сделки</h3>
+            <p>Помогу пройти сделку спокойно: от проверки документов до подписания договора и передачи денег.</p>
+            <h4>Подходит, если</h4>
+            <p>Нужна помощь с договором, переговорами, расчётами и проверкой перед подписанием.</p>
+            <h4>Результат</h4>
+            <p>Вы не остаётесь один на один с документами, продавцом, риэлтором, банком или нотариусом.</p>
+            <a class="card-link" href="#consultation">Получить сопровождение</a>
+          </article>
+          <article class="service-card">
+            <div class="service-card__top"><span class="badge badge--muted">Наследство</span><span class="service-card__icon">◌</span></div>
+            <h3>Наследство с недвижимостью</h3>
+            <p>Помогу разобраться, какие документы нужны, как оформить наследство и что делать с долями в недвижимости.</p>
+            <h4>Подходит, если</h4>
+            <p>В наследстве квартира, дом или доля; несколько наследников; нужно понять порядок действий у нотариуса.</p>
+            <h4>Результат</h4>
+            <p>Понятный порядок действий, список документов и понимание, как защитить имущественные интересы.</p>
+            <a class="card-link" href="#consultation">Разобрать наследство</a>
+          </article>
+          <article class="service-card">
+            <div class="service-card__top"><span class="badge badge--muted">Семья</span><span class="service-card__icon">◇</span></div>
+            <h3>Семейные имущественные вопросы и брачный договор</h3>
+            <p>Объясню, как заранее защитить имущество семьи, недвижимость, деньги и доли.</p>
+            <h4>Подходит, если</h4>
+            <p>Вы покупаете недвижимость в браке, хотите заключить брачный договор или понять последствия оформления имущества.</p>
+            <h4>Результат</h4>
+            <p>Вы понимаете варианты оформления и последствия каждого варианта.</p>
+            <a class="card-link" href="#consultation">Записаться на консультацию</a>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="team">
-        <h2>Наша Команда</h2>
-        <div class="team-member">
-            <h3>Иван Иванов</h3>
-            <p>Со-основатель, юрист в сфере недвижимости. Опыт работы более 10 лет. Сопровождает сделки, представляет в суде.</p>
+    <section class="section risk" id="risk">
+      <div class="container risk__grid">
+        <div>
+          <p class="eyebrow">Почему это важно</p>
+          <h2>Самая дорогая ошибка в недвижимости — подписать документы, не понимая последствий</h2>
+          <p>Иногда риск виден не в самой квартире, а в истории перехода права, наследстве, семейном статусе продавца, долях, доверенности, расчётах или условиях договора. Моя задача — заранее показать вам слабые места сделки и объяснить, что с ними делать.</p>
+          <a class="btn btn--secondary" href="#quiz">Начать с проверки ситуации</a>
         </div>
-        <div class="team-member">
-            <h3>Мария Петрова</h3>
-            <p>Со-основатель, руководитель онлайн-проектов. Специалист по цифровым консультациям.</p>
+        <div class="risk-list" aria-label="Риски сделки">
+          <article><span>01</span><strong>Наследственная история объекта</strong></article>
+          <article><span>02</span><strong>Семейный статус продавца</strong></article>
+          <article><span>03</span><strong>Доли и несовершеннолетние</strong></article>
+          <article><span>04</span><strong>Доверенности и полномочия</strong></article>
+          <article><span>05</span><strong>Условия договора и расчётов</strong></article>
         </div>
-        <div class="team-member">
-            <h3>Алексей Сидоров</h3>
-            <p>Юрист, занимается подготовкой договоров и проверкой объектов.</p>
-        </div>
-        <div class="team-member">
-            <h3>Елена Кузнецова</h3>
-            <p>Юрист-риэлтор, консультант по правовой поддержке.</p>
-        </div>
-        <div class="team-member">
-            <h3>Ольга Николаева</h3>
-            <p>Юрист, налоговый консультант. Оптимизация налогообложения в сделках с недвижимостью.</p>
-        </div>
+      </div>
     </section>
 
-    <section id="subscribe">
-        <h2>Подпишитесь на Рассылку</h2>
-        <p>Вы будете получать анонсы наших бесплатных мероприятий и полезную информацию.</p>
-        <form action="#" method="post">
-            <input type="email" name="email" placeholder="Ваш email" required>
-            <button type="submit">Подписаться</button>
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Процесс</p>
+          <h2>Как я работаю</h2>
+          <p>Простой порядок без лишней бюрократии: от короткого описания ситуации до понятного плана действий.</p>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><h3>Вы оставляете заявку</h3><p>Кратко описываете ситуацию и прикладываете документы, если они есть.</p></li>
+          <li><span>2</span><h3>Я изучаю вопрос</h3><p>Смотрю документы, обстоятельства, возможные риски и недостающие данные.</p></li>
+          <li><span>3</span><h3>Объясняю простым языком</h3><p>Рассказываю, где безопасно, где нужно уточнить, а где лучше не торопиться.</p></li>
+          <li><span>4</span><h3>Вы получаете понятный план</h3><p>Что запросить, что исправить, что подписывать, а что — нет.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section lead-magnet" id="checklist">
+      <div class="container lead-magnet__grid">
+        <div>
+          <p class="eyebrow">Бесплатный материал</p>
+          <h2>Чек-лист: 12 документов, которые нужно проверить перед покупкой квартиры</h2>
+          <p>Оставьте контакт — пришлю список документов и поясню, какие пункты особенно важны для вашей ситуации.</p>
+        </div>
+        <form class="mini-form js-lead-form" data-form-name="lead-magnet" novalidate>
+          <label>Имя<input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required></label>
+          <label>Telegram или email<input type="text" name="contact" autocomplete="email" placeholder="@username или email" required></label>
+          <label class="checkbox"><input type="checkbox" name="privacy" required><span>Я согласен(на) на обработку персональных данных и ознакомлен(а) с <a href="/privacy/">Политикой</a></span></label>
+          <label class="checkbox"><input type="checkbox" name="marketing"><span>Согласен(на) получить чек-лист и полезные материалы по теме</span></label>
+          <button class="btn" type="submit">Получить чек-лист</button>
+          <p class="form-note">Рассылка подключается отдельно и только при отдельном согласии.</p>
         </form>
-        <p>Подписываясь, вы соглашаетесь с <a href="#">политикой конфиденциальности</a>.</p>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2025 Эксперт по Юридической Проверке Недвижимости. ИП [Ваше Имя]. Все права защищены.</p>
-    </footer>
+    <section class="section section--soft" id="about">
+      <div class="container about__grid">
+        <div>
+          <p class="eyebrow">Обо мне</p>
+          <h2>Олег Соколов — юрист, который объясняет сложные документы простым языком</h2>
+          <p>Я — юрист и эксперт-консультант в сфере недвижимости, наследственного и семейного права. 12 лет работаю с документами, сделками и имущественными вопросами. Значимая часть моего опыта связана с нотариальной практикой, поэтому я хорошо понимаю, где в наследстве, долях, брачных договорах и сделках с недвижимостью чаще всего возникают риски.</p>
+          <p>Моя задача — не запугать клиента сложными терминами, а спокойно объяснить ситуацию, показать варианты и помочь принять взвешенное решение.</p>
+          <div class="trust-grid">
+            <span>Диплом юриста</span>
+            <span>12 лет практики</span>
+            <span>Опыт работы в нотариальной конторе</span>
+            <span>Анонимные кейсы</span>
+            <span>Работа онлайн по всей России</span>
+            <span>Офис и выезд по договорённости</span>
+          </div>
+        </div>
+        <aside class="about-card">
+          <h3>С чем я не работаю как с основным направлением</h3>
+          <ul class="check-list check-list--muted">
+            <li>судебные споры и судебное представительство;</li>
+            <li>оспаривание завещаний и споры между наследниками;</li>
+            <li>аренда, земельные вопросы, новостройки и коммерческая недвижимость;</li>
+            <li>международные наследственные и имущественные вопросы.</li>
+          </ul>
+          <p>Если по описанию станет понятно, что нужен судебный формат защиты, я честно скажу об этом и помогу определить следующий шаг.</p>
+        </aside>
+      </div>
+    </section>
 
+    <section class="section" id="cases">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Кейсы</p>
+          <h2>Анонимные примеры работы</h2>
+          <p>Без персональных данных, адресов, номеров дел и обещаний аналогичного исхода.</p>
+        </div>
+        <div class="cases-grid">
+          <article class="case-card"><h3>Покупка квартиры после наследства</h3><p><strong>Ситуация:</strong> клиент покупал квартиру, продавец получил объект по наследству.</p><p><strong>Что проверили:</strong> документы, историю объекта, основания перехода права, возможные риски по наследникам.</p><p><strong>Что получил клиент:</strong> понятное заключение, список дополнительных документов и условия для продолжения сделки.</p></article>
+          <article class="case-card"><h3>Покупка квартиры в браке</h3><p><strong>Ситуация:</strong> семья планировала покупку недвижимости и хотела понять, как защитить вложения каждого супруга.</p><p><strong>Что сделали:</strong> разобрали варианты оформления, режим совместной собственности, брачный договор и доли.</p><p><strong>Что получили клиенты:</strong> варианты оформления и перечень документов для нотариуса.</p></article>
+          <article class="case-card"><h3>Наследство с недвижимостью</h3><p><strong>Ситуация:</strong> клиент получил в наследство долю в квартире и не понимал порядок оформления.</p><p><strong>Что сделали:</strong> разобрали сроки, документы, действия у нотариуса и риски дальнейшего распоряжения долей.</p><p><strong>Что получил клиент:</strong> пошаговый план и список документов.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section prices" id="prices">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Стоимость</p>
+          <h2>Цены</h2>
+          <p>Стоимость зависит от объёма документов, срочности и сложности ситуации. После первичного описания вопроса я заранее сообщу стоимость работы.</p>
+        </div>
+        <div class="table-wrap" role="region" aria-label="Стоимость услуг" tabindex="0">
+          <table>
+            <thead><tr><th>Услуга</th><th>Цена</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>Первичная консультация</td><td>от 3 000 ₽</td><td>Онлайн, офис или выезд по согласованию.</td></tr>
+              <tr><td>Консультация по наследству</td><td>от 3 000 ₽</td><td>Порядок действий, документы, доли, вопросы нотариального оформления.</td></tr>
+              <tr><td>Консультация по семейным имущественным вопросам / брачному договору</td><td>от 3 000 ₽</td><td>Разбор вариантов защиты имущества, последствий оформления, брачного договора.</td></tr>
+              <tr><td>Проверка объекта недвижимости</td><td>по запросу</td><td>Зависит от объекта, объёма документов и глубины проверки.</td></tr>
+              <tr><td>Сопровождение сделки</td><td>по запросу</td><td>Зависит от этапов сопровождения и объёма участия юриста.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="container quiz__grid">
+        <div>
+          <p class="eyebrow">Квиз</p>
+          <h2>Ответьте на 5 вопросов — я подскажу, с чего начать проверку вашей ситуации</h2>
+          <p>Квиз помогает быстро понять тему обращения, срочность и удобный канал связи. Если есть документы, их можно будет передать после первичного контакта защищённым способом.</p>
+          <ul class="check-list">
+            <li>без сложных юридических терминов;</li>
+            <li>занимает 2–3 минуты;</li>
+            <li>ответ в рабочее время — ориентировочно в течение 30 минут.</li>
+          </ul>
+        </div>
+        <form class="quiz js-quiz js-lead-form" data-form-name="quiz" novalidate>
+          <div class="quiz__progress" aria-hidden="true"><span data-quiz-progress></span></div>
+          <fieldset data-step="1" class="is-active">
+            <legend>1. С чем связан вопрос?</legend>
+            <label><input type="radio" name="topic" value="Покупка недвижимости" required> Покупка недвижимости</label>
+            <label><input type="radio" name="topic" value="Наследство"> Наследство</label>
+            <label><input type="radio" name="topic" value="Брачный договор"> Брачный договор</label>
+            <label><input type="radio" name="topic" value="Семейное имущество"> Семейное имущество</label>
+            <label><input type="radio" name="topic" value="Другое"> Другое</label>
+          </fieldset>
+          <fieldset data-step="2">
+            <legend>2. Что нужно сделать?</legend>
+            <label><input type="radio" name="task" value="Проверить документы" required> Проверить документы</label>
+            <label><input type="radio" name="task" value="Сопроводить сделку"> Сопроводить сделку</label>
+            <label><input type="radio" name="task" value="Получить консультацию"> Получить консультацию</label>
+            <label><input type="radio" name="task" value="Понять риски"> Понять риски</label>
+          </fieldset>
+          <fieldset data-step="3">
+            <legend>3. Есть ли документы?</legend>
+            <label><input type="radio" name="documents" value="Да, могу загрузить" required> Да, могу загрузить</label>
+            <label><input type="radio" name="documents" value="Да, но пока не готов отправлять"> Да, но пока не готов отправлять</label>
+            <label><input type="radio" name="documents" value="Нет"> Нет</label>
+          </fieldset>
+          <fieldset data-step="4">
+            <legend>4. Насколько срочно?</legend>
+            <label><input type="radio" name="urgency" value="Сегодня-завтра" required> Сегодня-завтра</label>
+            <label><input type="radio" name="urgency" value="В течение недели"> В течение недели</label>
+            <label><input type="radio" name="urgency" value="Пока изучаю вопрос"> Пока изучаю вопрос</label>
+          </fieldset>
+          <fieldset data-step="5">
+            <legend>5. Где вам удобнее получить ответ?</legend>
+            <label><input type="radio" name="channel" value="Telegram" required> Telegram</label>
+            <label><input type="radio" name="channel" value="MAX"> MAX</label>
+            <label><input type="radio" name="channel" value="Телефон"> Телефон</label>
+            <label><input type="radio" name="channel" value="Email"> Email</label>
+          </fieldset>
+          <fieldset data-step="6">
+            <legend>Контакты и описание</legend>
+            <label>Ваше имя<input type="text" name="name" autocomplete="name" placeholder="Имя" required></label>
+            <label>Телефон, мессенджер или email<input type="text" name="contact" autocomplete="tel" placeholder="+7…, @username или email" required></label>
+            <label>Описание ситуации<textarea name="message" rows="4" placeholder="Коротко опишите объект, документы или вопрос"></textarea></label>
+            <label>Документы, если уже готовы<input type="file" name="files" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label>
+            <p class="form-note">Файлы до 20 МБ каждый. На статической версии сайта безопасная передача документов подключается через CRM/внешний защищённый сервис.</p>
+            <label class="checkbox"><input type="checkbox" name="privacy" required><span>Я согласен(на) на обработку персональных данных и ознакомлен(а) с <a href="/privacy/">Политикой обработки персональных данных</a></span></label>
+          </fieldset>
+          <div class="quiz__controls">
+            <button class="btn btn--ghost" type="button" data-quiz-prev>Назад</button>
+            <button class="btn" type="button" data-quiz-next>Далее</button>
+            <button class="btn" type="submit" data-quiz-submit>Отправить</button>
+          </div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2>Ответы на частые вопросы</h2>
+          <p>Если не нашли свой вопрос, опишите ситуацию в форме — я подскажу, с чего начать.</p>
+        </div>
+        <div class="faq-list">
+          <details><summary>Можно ли работать дистанционно?</summary><p>Да. Я консультирую онлайн по всей России. Документы можно направить в электронном виде, а консультацию провести по видеосвязи или в мессенджере.</p></details>
+          <details><summary>Вы занимаетесь судами?</summary><p>Нет, я не беру судебные споры как основное направление. Моя задача — помочь разобраться в документах, оформить сделку или наследство максимально спокойно и по возможности не доводить ситуацию до суда. Если вижу, что без судебной защиты не обойтись, честно скажу об этом.</p></details>
+          <details><summary>Если квартиру уже проверил риэлтор, нужна ли юридическая проверка?</summary><p>Риэлтор помогает провести сделку, но независимый юридический взгляд нужен, чтобы отдельно оценить документы, историю объекта, семейные и наследственные риски, условия договора и возможные последствия для покупателя.</p></details>
+          <details><summary>Можно ли получить только консультацию?</summary><p>Да. Иногда достаточно одной консультации, чтобы понять порядок действий, риски и документы, которые нужно запросить.</p></details>
+          <details><summary>Можно ли обещать, что после проверки рисков не будет?</summary><p>Нет. В юридической работе нельзя честно обещать отсутствие всех рисков. Но можно выявить существенные риски по документам, объяснить последствия и предложить более безопасный порядок действий.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__grid">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Опишите ситуацию — я отвечу в течение 30 минут в рабочее время</h2>
+          <p>Можно начать с короткого сообщения: что покупаете или оформляете, какие документы уже есть и насколько срочно нужен ответ.</p>
+          <div class="contact-cards">
+            <a href="#consultation" data-goal="click_phone"><span>Телефон</span><strong>добавить номер</strong></a>
+            <a href="#consultation" data-goal="click_telegram"><span>Telegram</span><strong>добавить ссылку</strong></a>
+            <a href="#consultation" data-goal="click_max"><span>MAX</span><strong>добавить ссылку</strong></a>
+            <a href="#consultation" data-goal="click_email"><span>Email</span><strong>добавить email</strong></a>
+          </div>
+          <p class="small-note">Контакты, CRM, Telegram/MAX-уведомления, календарь записи и счётчик Яндекс Метрики подключаются после передачи фактических данных и доступов.</p>
+        </div>
+        <form class="contact-form js-lead-form" id="consultation" data-form-name="consultation" novalidate>
+          <h3>Заявка на консультацию</h3>
+          <label>Имя<input type="text" name="name" autocomplete="name" placeholder="Ваше имя" required></label>
+          <label>Телефон или мессенджер<input type="text" name="contact" autocomplete="tel" placeholder="+7…, @username или другой контакт" required></label>
+          <label>Email <span>необязательно</span><input type="email" name="email" autocomplete="email" placeholder="mail@example.ru"></label>
+          <label>Тема обращения<select name="topic" required>
+            <option value="">Выберите тему</option>
+            <option>Недвижимость</option><option>Наследство</option><option>Брачный договор</option><option>Семейный вопрос</option><option>Другое</option>
+          </select></label>
+          <label>Описание ситуации<textarea name="message" rows="5" placeholder="Коротко опишите вопрос, объект или документы"></textarea></label>
+          <label>Документы <span>опционально</span><input type="file" name="files" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label>
+          <label class="checkbox"><input type="checkbox" name="privacy" required><span>Я согласен(на) на обработку персональных данных и ознакомлен(а) с <a href="/privacy/">Политикой обработки персональных данных</a></span></label>
+          <button class="btn" type="submit">Отправить заявку</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <a class="brand brand--footer" href="#top"><span class="brand__mark">ЮС</span><span class="brand__text"><strong>Олег Соколов</strong><small>юрист по недвижимости и наследству</small></span></a>
+        <p>Информация на сайте носит справочный характер и не является индивидуальной юридической консультацией. Точные рекомендации возможны после изучения документов и обстоятельств.</p>
+      </div>
+      <nav aria-label="Дополнительная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#faq">FAQ</a>
+        <a href="/privacy/">Политика персональных данных</a>
+      </nav>
+      <div class="footer__legal">
+        <p>© <span data-year></span> Олег Соколов. Все права защищены.</p>
+        <p>Кострома · консультации онлайн по России</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie" data-cookie hidden>
+    <p>Сайт может использовать cookie и сервисы аналитики для улучшения работы и оценки эффективности рекламы. Продолжая пользоваться сайтом, вы соглашаетесь с <a href="/privacy/">Политикой</a>.</p>
+    <button class="btn btn--small" type="button" data-cookie-accept>Понятно</button>
+  </div>
+
+  <script>
+    window.SITE_CONFIG = {
+      leadEndpoint: "",
+      yandexMetrikaId: "",
+      showCookieNotice: false,
+      telegramUrl: "",
+      maxUrl: "",
+      phone: "",
+      email: ""
+    };
+  </script>
+  <script src="/script.js" defer></script>
 </body>
-
 </html>
